@@ -62,7 +62,9 @@ flutter:
    - assets/img/chicaFlores.jpg
    - assets/img/chica.jpg
    - assets/img/rojo.jpg
-
+   - assets/img/lux.jpg
+   - assets/img/luxem.jpg
+   - assets/img/luxembur.jpg
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 class GradientBack extends StatelessWidget {
-  const GradientBack({super.key});
+  final String title;
+  const GradientBack({super.key, required this.title});
   
   @override
   Widget build(BuildContext context) {
@@ -19,6 +21,16 @@ class GradientBack extends StatelessWidget {
     tileMode: TileMode.clamp,
     )
     ),
+     alignment: const Alignment(-0.9, -0.6),
+    child: Text(
+      title,
+      style: GoogleFonts.lato(
+        fontSize: 30.0,
+        color: Colors.white,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+   
     );
   }
 
